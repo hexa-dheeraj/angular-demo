@@ -39,7 +39,6 @@
 						function(dataFromServer) {
 							$scope.studentList = dashboardInfoService.studentsInfoList;
 							$scope.gridStudentInfo.data = dashboardInfoService.studentsInfoList;
-							console.log(dataFromServer);
 						}).error(function(dataFromServer, status, headers, config) {
 					console.log(dataFromServer);
 				});
