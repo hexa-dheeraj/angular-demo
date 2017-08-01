@@ -1,4 +1,17 @@
-<div ng-controller="DashboardController">
-	<div id="dashboardGrid" ui-grid="gridStudentInfo"
-		ui-grid-resize-columns ui-grid-auto-resize></div>
+<div ng-controller="DashboardController" class="dashboardContainer">
+	<div class="dashboardInner">
+		<div class="gridContainer">
+			<section>
+				<span class="gridHeading"> Students Information</span>
+			</section>
+			<div id="dashboardGrid" ui-grid="gridStudentInfo"
+				ui-grid-resize-columns ui-grid-auto-resize></div>
+		</div>
+		
+		<div class="studentAction">
+		
+		</div>
+
+	</div>
+
 </div>

@@ -1,0 +1,13 @@
+.dashboardContainer {
+	padding: 1%;
+}
+
+.gridContainer {
+	padding : 2%;
+}
+
+.gridHeading {
+	font-size: 25px;
+	font-weight: bold;
+	padding: 5px;
+}

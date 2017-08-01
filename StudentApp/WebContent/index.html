@@ -7,6 +7,7 @@
         <!-- ALL JS FILES -->
         <!--Lib JS files --> 
         <script src="assets/js/lib/jquery.min.js"></script>
+        <script src="assets/js/lib/bootstrap.js"></script>
         <script src="assets/js/lib/angular.min.js"></script>
         <script src="assets/js/lib/angular-ui-router.min.js"></script>
         <script src="assets/js/lib/lodash.min.js"></script> 
@@ -29,9 +30,11 @@
         <!-- ALL CSS FILES -->
         <link rel="stylesheet" type="text/css" href="assets/css/dashboard.css"> 
         <link rel="stylesheet" type="text/css" href="assets/css/studentApp.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/ui-grid.min.css">        
+        <link rel="stylesheet" type="text/css" href="assets/css/ui-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">        
+                
     </head>
-    <body ng-app="StudentApp" ng-controller="BaseInfoController"> 
+    <body ng-app="StudentApp" ng-controller="BaseInfoController" class="bodyContainer"> 
         <div>            
             <!-- Loads Different Views Here -->
             <div ui-view id="viewContainer">

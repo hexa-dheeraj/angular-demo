@@ -55,6 +55,7 @@
 				name : 'studentCourse',
 				displayName : 'Course Enrolled',
 			} ];
+			$scope.gridStudentInfo.enableGridMenu = true;
 		}
 
 	}
