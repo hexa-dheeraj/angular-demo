@@ -1,38 +1,38 @@
 [
     {
         "studentName" : "Dheeraj Vats",
-        "studentAge" : 24,
-        "studentId" : 001,
+        "studentAge" : "24",
+        "studentId" : "001",
         "studentCourse" : "BTech"
     },
     {
         "studentName" : "Bikram Ray",
-        "studentAge" : 27,
-        "studentId" : 002,
+        "studentAge" : "27",
+        "studentId" : "002",
         "studentCourse" : "MCA"
     },
     {
         "studentName" : "Sumit Sipani",
-        "studentAge" : 25,
-        "studentId" : 003,
+        "studentAge" : "25",
+        "studentId" : "003",
         "studentCourse" : "BCA"
     },
     {
         "studentName" : "Saksham Sethi",
-        "studentAge" : 24,
-        "studentId" : 004,
+        "studentAge" : "24",
+        "studentId" : "004",
         "studentCourse" : "Bsc"
     },
     {
         "studentName" : "Monica Dass",
-        "studentAge" : 28,
-        "studentId" : 005,
+        "studentAge" : "28",
+        "studentId" : "005",
         "studentCourse" : "MBA"
     },
     {
         "studentName" : "Santosh Kumar",
-        "studentAge" : 29,
-        "studentId" : 006,
+        "studentAge" : "29",
+        "studentId" : "006",
         "studentCourse" : "Mtech"
     }
 ]

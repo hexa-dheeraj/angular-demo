@@ -17,8 +17,7 @@
 	 */
 	function baseInfoController(
 			$scope,
-			$state,
-			baseInfoService) {
+			$state) {
 		(function init() {
 			initScope();
 		})();
