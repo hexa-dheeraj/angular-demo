@@ -14,29 +14,23 @@
         <script src="assets/js/lib/ui-grid-vfs-fonts.js"></script>
          
         <!-- IOT World Labs App JS files -->
-        <script src="IOTWorldLabsApp.js"></script>
+        <script src="StudentApp.js"></script>
         
         <!-- Controller JS Files -->
         
         <!-- Base Controller JS Files -->
-        <script src="shared/baseFiles/baseService.js"></script>
-        <script src="shared/baseFiles/baseModel.js"></script>
-        <script src="shared/baseFiles/baseInfoController.js"></script>        
-        
+        <script src="app/base/baseInfoController.js"></script>        
         
         <!-- Dashboard Controller JS Files -->
-        <script src="app/components/dashboard/dashboardModel.js"></script>
-        <script src="app/components/dashboard/dashboardService.js"></script>
-        <script src="app/components/dashboard/dashboardController.js"></script>        
+        <script src="app/dashboard/dashboardModel.js"></script>
+        <script src="app/dashboard/dashboardService.js"></script>
+        <script src="app/dashboard/dashboardController.js"></script>        
 
-            
         <!-- ALL CSS FILES -->
-    
-        <!-- Lib CSS files -->
-        <link rel="stylesheet" type="text/css" href="assets/css/lib/jquery.loader.css"> 
-        <link rel="stylesheet" type="text/css" href="assets/css/lib/clockpicker.css">    
+        <link rel="stylesheet" type="text/css" href="assets/css/dashboard.css"> 
+        <link rel="stylesheet" type="text/css" href="assets/css/studentApp.css">    
     </head>
-    <body ng-app="studentApp" ng-controller="BaseInfoController"> 
+    <body ng-app="StudentApp" ng-controller="BaseInfoController"> 
         <div>            
             <!-- Loads Different Views Here -->
             <div ui-view id="viewContainer">
