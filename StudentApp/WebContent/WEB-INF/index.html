@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Student App</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+             
+        <!-- ALL JS FILES -->
+        <!--Lib JS files --> 
+        <script src="assets/js/lib/jquery.min.js"></script>
+        <script src="assets/js/lib/angular.min.js"></script>
+        <script src="assets/js/lib/angular-ui-router.min.js"></script>
+        <script src="assets/js/lib/bootstrap.min.js"></script>  
+        <script src="assets/js/lib/lodash.min.js"></script> 
+        <script src="assets/js/lib/ui-grid.min.js"></script>
+        <script src="assets/js/lib/ui-grid-vfs-fonts.js"></script>
+         
+        <!-- IOT World Labs App JS files -->
+        <script src="IOTWorldLabsApp.js"></script>
+        
+        <!-- Controller JS Files -->
+        
+        <!-- Base Controller JS Files -->
+        <script src="shared/baseFiles/baseService.js"></script>
+        <script src="shared/baseFiles/baseModel.js"></script>
+        <script src="shared/baseFiles/baseInfoController.js"></script>        
+        
+        
+        <!-- Dashboard Controller JS Files -->
+        <script src="app/components/dashboard/dashboardModel.js"></script>
+        <script src="app/components/dashboard/dashboardService.js"></script>
+        <script src="app/components/dashboard/dashboardController.js"></script>        
+
+            
+        <!-- ALL CSS FILES -->
+    
+        <!-- Lib CSS files -->
+        <link rel="stylesheet" type="text/css" href="assets/css/lib/jquery.loader.css"> 
+        <link rel="stylesheet" type="text/css" href="assets/css/lib/clockpicker.css">    
+    </head>
+    <body ng-app="studentApp" ng-controller="BaseInfoController"> 
+        <div>            
+            <!-- Loads Different Views Here -->
+            <div ui-view id="viewContainer">
+                <!-- Different States Load Here -->
+            </div>
+        </div>
+    </body> 
+</html>
