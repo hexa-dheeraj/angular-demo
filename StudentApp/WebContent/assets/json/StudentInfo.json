@@ -34,5 +34,29 @@
         "studentAge" : "29",
         "studentId" : "006",
         "studentCourse" : "Mtech"
+    },
+    {
+        "studentName" : "Vijay Kumar",
+        "studentAge" : "23",
+        "studentId" : "007",
+        "studentCourse" : "BCA"
+    },
+    {
+        "studentName" : "Vipul Sharma",
+        "studentAge" : "29",
+        "studentId" : "008",
+        "studentCourse" : "MSc"
+    },
+    {
+        "studentName" : "Vinay Kumar",
+        "studentAge" : "26",
+        "studentId" : "009",
+        "studentCourse" : "Mtech"
+    },
+    {
+        "studentName" : "Sweta Jain",
+        "studentAge" : "27",
+        "studentId" : "010",
+        "studentCourse" : "MBA"
     }
 ]
