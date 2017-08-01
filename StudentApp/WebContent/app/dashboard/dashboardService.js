@@ -15,7 +15,11 @@
     /* @ngInject */
     function dashboardInfoService($rootScope, $http, $state, $interval) {
         var service = {
-            getStudentInfo : getStudentInfo
+        	studentsInfoList : new Array(),
+            getStudentInfo : getStudentInfo,
+            selectedStudent : null,
+            setSelectedStudent : setSelectedStudent,
+            getSelectedStudent : getSelectedStudent
         };
         
         /**
@@ -25,7 +29,17 @@
             return $http({
                 method : 'GET',
                 url : "assets/json/StudentInfo.json",
-            });
+            }).success(function(dataFromServer, status, headers, config) {
+            	service.studentsInfoList = dataFromServer;
+			});
+        }
+        
+        function setSelectedStudent(student) {
+        	service.selectedStudent = student;
+        }
+        
+        function getSelectedStudent(student) {
+        	return service.selectedStudent;
         }
         
         return service;

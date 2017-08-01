@@ -1,0 +1,27 @@
+<div ng-controller="EditController" class="editContainer">
+	<div class="formContainer">
+		<div class="form-group">
+			<label for="name">Name:</label> <input type="text"
+				class="form-control" id="name" ng-model="studentModel.studentName">
+		</div>
+		<div class="form-group">
+			<label for="age">Age:</label> <input type="text" class="form-control"
+				id="age" ng-model="studentModel.studentAge">
+		</div>
+		<div class="form-group">
+			<label for="sId">Student Id:</label> <input type="text"
+				class="form-control" id="sId" ng-model="studentModel.studentId">
+		</div>
+		<div class="form-group">
+			<label for="course">Course:</label> <input type="text"
+				class="form-control" id="course"
+				ng-model="studentModel.studentCourse">
+		</div>
+		
+		<div>
+		    <button type="button" class="btn btn-primary" ng-click="save()">Save</button>
+		</div>
+		
+	</div>
+
+</div>

@@ -15,5 +15,10 @@
             url : '/dashboard',
             templateUrl : 'app/dashboard/dashboard.html'
         });
+        
+        $stateProvider.state('UPDATE STUDENT', {
+            url : '/update',
+            templateUrl : 'app/edit/edit.html'
+        });
     })
 }());

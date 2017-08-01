@@ -11,3 +11,12 @@
 	font-weight: bold;
 	padding: 5px;
 }
+
+.studentAction {
+	padding: 2%;
+}
+
+.gridAction {
+	cursor: pointer;
+	padding-left: 5px;
+}
